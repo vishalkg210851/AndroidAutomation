@@ -1,17 +1,11 @@
-package Interface;
-
-
-import utils.Utility;
+package org.Interface;
+import org.utils.Utility;
 import java.util.Properties;
-
-//import static utils.Utility.getValueFromPropertiesFile;
-//import static utils.Utility.readPropFile;
-
 
 public interface Dependencies {
 
-   String root_path = System.getProperty("user.dir");
-   String config_path = root_path+"/Config.properties";
+    String root_path = System.getProperty("user.dir");
+    String config_path = root_path+"/Config.properties";
     Utility readWriteFile = new Utility();
     Properties properties = readWriteFile.getPropertiesValue();
     String Left_Key = properties.getProperty("KEYCODE_DPAD_LEFT");

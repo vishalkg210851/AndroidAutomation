@@ -1,157 +1,85 @@
-package STB;
+package org.utils;
 
-import Interface.Dependencies;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
+import org.Interface.Dependencies;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import sun.jvm.hotspot.debugger.cdbg.BaseClass;
-
+import io.restassured.response.Response;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import static io.restassured.RestAssured.given;
+import static org.utils.LoggingManager.logMessage;
 
-import utils.Helpers;
+public class Helpers implements Dependencies
+    {
+        public AndroidDriver driver;
+        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?" +
+                "op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&" +
+                "refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chun" +
+                "gama%2Cmwtv%2Cndtv%2Czee5&dt=com.java.org.ST" +
+                "B&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=SDK";
+        String pageID = "5b4c82f8abbba8a60dcd384b";
 
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
-
-
-public class STB_functions implements Dependencies {
-
-    WebDriver driver ;
-    boolean flag = true;
-    Integer diffcount = Integer.MAX_VALUE;
-
-
-
-   /* @FindBy(id = "com.airtel.tv:id/homeTab")
-    WebElement Home;
-
-    @FindBy(id = "'com.airtel.tv:id/add_banner_img_view'|com.airtel.tv:id/bannerImage")
-    WebElement banner;
-
-    @FindBy(id = "com.airtel.tv:id/subSectionTitleView")
-    WebElement subSectionTitle;
-
-    public STB_functions(WebDriver driver) throws InterruptedException {
-        this.driver=driver;
-        PageFactory.initElements(driver, this);
-    }*/
+    public Helpers(AndroidDriver driver){
+        this.driver = driver;
+    }
 
 
-        public STB_functions(AndroidDriver driver){
+    private void test(String key) {
+        try {
+            Runtime.getRuntime().exec(key);}
+            catch (Exception e)
+        { e.printStackTrace(); } }
 
-            this.driver = driver;
-        }
-
-        public void test(String key) {
-            try {
-                Runtime.getRuntime().exec(key);
-
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-
-  /*  public void scrollVertical(AndroidDriver driver) throws InterruptedException {
-
-        boolean flag = true;
-        String  HomepageID = "5b4c82f8abbba8a60dcd384b";
-        Object[] objtomatch = Helpers.getPagelayout(HomepageID);
-        String stringtomatch = objtomatch[0].toString();
-        int size = Integer.parseInt(objtomatch[1].toString());
-        System.out.println("str:- " + stringtomatch);
-        System.out.println("str:- " + size);
-        int i = 0;
-
-        while (flag) {
-
-            WebElement subSectionTitleView = driver.findElementById("com.airtel.tv:id/subSectionTitleView");
-            String title = subSectionTitleView.getText().trim();
-            System.out.println("Last Title:- " + stringtomatch);
-            System.out.println(+i+ ".Current Title:- " + title);
-            System.out.println("index:- " + size);
-
-//            if (i<=size){
-            if(!title.contentEquals(stringtomatch)){
-                System.out.println("Last not reached");
-                System.out.println("SIZE"+i);
-                scrolltoend(driver);
-                test(DOWN_key);
-                ++i;
-            }
-            else {
-                scrolltoend(driver);
-                flag=false;
-                System.out.println("Reached to end");
-                break;
-            }
-        }
-    }*/
-//    ---------------new code-------------
-    public void scrollVertical(AndroidDriver driver) throws InterruptedException {
+    public void scrollVertical(){
 
         boolean flag = true;
         String HomepageID = "5b4c82f8abbba8a60dcd384b";
         String title = Helpers.getPagelayout(HomepageID);
         System.out.println("Last Title:- " + title);
         int counter = 1;
-
-
         while (flag) {
             try {
+                WebDriverWait wait=new WebDriverWait(driver,90);
+                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.airtel.tv:id/subSectionTitleView")));
+                WebElement subSectionTitleView = driver.findElementById("com.airtel.tv:id/subSectionTitleView");
+                String str = subSectionTitleView.getText().trim();
+                System.out.println("Current Title"   +str);
+                System.out.println("Last Title"   +title);
 
-            WebDriverWait wait=new WebDriverWait(driver,90);
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.airtel.tv:id/subSectionTitleView")));
-            WebElement subSectionTitleView = driver.findElementById("com.airtel.tv:id/subSectionTitleView");
-            String str = subSectionTitleView.getText().trim();
-            System.out.println("Current Title"   +str);
-            System.out.println("Last Title"   +title);
-
-            if (!str.contentEquals(title)) {
-                    scrolltoend(driver);
+                if (!str.contentEquals(title)) {
+                    scrolltoend();
                     test(DOWN_key);
                     System.out.println("Down key pressed");
                 } else{
                     flag = false;
-                    scrolltoend(driver);
+                    scrolltoend();
                     break;
                 }
-
             }
-        catch(Exception e) {
-            e.printStackTrace();
-        }
-        }
+            catch(Exception e) {
+                e.printStackTrace();
+            } } }
 
 
-        }
-
-
-    public void scrolltoend(AndroidDriver driver) throws InterruptedException {
-
+    public void scrolltoend() {
         boolean flag = true;
         Integer diffcount_horizontal = Integer.MAX_VALUE;
-
         while (diffcount_horizontal > 0) {
             Set<String> set_a = new HashSet<String>();
             try {
                 List<WebElement> Title = driver.findElementsById("com.airtel.tv:id/subSectionTitleView");
-
                 Boolean title_is_displayed = Title.get(0).isDisplayed();
-
                 if (title_is_displayed) {
                     System.out.println("DLogs " + Title.get(0).getText().toString());
-
                     List<WebElement> List1 = driver.findElementsById("com.airtel.tv:id/titleView");
                     int l1 = List1.size();
                     System.out.println("Movies Present in first set =" + List1.size());
@@ -165,12 +93,10 @@ public class STB_functions implements Dependencies {
                                 test(Right_Key);
                             }
                             flag = false;
-                        }
-                    }
-                }
+                        } } }
             } catch (Exception e) {
                 test(DOWN_key);
-               test(DOWN_key);
+                test(DOWN_key);
 
             }
             Set<String> set_b = new HashSet<String>();
@@ -189,17 +115,12 @@ public class STB_functions implements Dependencies {
             System.out.println(diff);
             System.out.println("SetA:" + set_a);
             System.out.println("SetB:" + set_b);
-
             for (int k = 0; k <= (diffcount_horizontal + set_a.size() + set_b.size()); k++) {
                 test(Right_Key);
                 set_a.clear();
                 set_b.clear();
-            }
-        }
-        System.out.println("Reached End ! Success");
-
-    }
-
+            } }
+        System.out.println("Reached End ! Success"); }
 
     public void ContentDesc(AndroidDriver driver) throws InterruptedException {
 
@@ -225,4 +146,43 @@ public class STB_functions implements Dependencies {
             test(Back);
         }
     }
-}
+
+    public static String getPagelayout(String pageID) {
+        String title = "";
+
+        try {
+            Response response = given().relaxedHTTPSValidation().
+                    param("pageId", pageID).
+                    when().
+                    get(URL);
+            String stringresponse = response.asString();
+            String prettystyring = toPrettyJson(stringresponse);
+            int size = response.jsonPath().getList("$").size();
+            System.out.println("Dlogs:- " + size);
+
+            List<Map<String, String>> formatvalue = response.jsonPath().getList("format");
+            title = formatvalue.get(size - 3).get("t");
+            System.out.println("Title from API = " + title);
+        } catch (Exception e) {
+            System.out.println("Exception found: "
+                    + e);
+        }
+        return title;
+    }
+        public static String toPrettyJson(String uglyJSONString) {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        JsonParser jp = new JsonParser();
+        JsonElement je = jp.parse(uglyJSONString);
+        String prettyJsonString = gson.toJson(je);
+        return prettyJsonString;
+    }
+
+    public static String toJsonString(Object obj) {
+        return new Gson().toJson(obj);
+    }
+
+    }
+
+
+
+

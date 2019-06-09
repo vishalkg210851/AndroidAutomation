@@ -1,4 +1,4 @@
-package utils;
+package org.utils;
 
 import java.util.Properties;
 import java.io.*;
@@ -7,10 +7,6 @@ import org.apache.log4j.Logger;
 public class Utility {
 
     static Logger log = Logger.getLogger(Utility.class);
-
-    /**
-     * Read the properties files
-     */
 
     public Properties getPropertiesValue() {
         Properties properties = null;
