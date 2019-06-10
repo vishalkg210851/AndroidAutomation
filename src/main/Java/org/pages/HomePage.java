@@ -13,16 +13,16 @@ public class HomePage extends Helpers {
 
     AndroidDriver driver;
 
-    @FindBy(xpath = "//a[@title='Log In'][1]")
-    @AndroidFindBy(id = "login_button")
+//    @FindBy(xpath = "//a[@title='Log In'][1]")
+//    @AndroidFindBy(id = "login_button")
     private WebElement homepagetab;
 
     public HomePage(AndroidDriver driver) throws InterruptedException {
         super(driver);
         this.driver = driver;
-        PageFactory.initElements(driver, this);
+//        PageFactory.initElements(driver, this);
         logMessage("Initializing the "+this.getClass().getSimpleName()+" elements");
-        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+//        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
         Thread.sleep(1000);
     }
 
