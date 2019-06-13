@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import io.appium.java_client.android.AndroidDriver;
+import io.qameta.allure.Step;
 import org.Interface.Dependencies;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -16,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import static io.restassured.RestAssured.given;
-import static org.utils.LoggingManager.logMessage;
+
 
 public class Helpers implements Dependencies
     {
@@ -38,7 +39,7 @@ public class Helpers implements Dependencies
             Runtime.getRuntime().exec(key);}
             catch (Exception e)
         { e.printStackTrace(); } }
-
+    @Step
     public void scrollVertical(){
 
         boolean flag = true;
@@ -69,7 +70,7 @@ public class Helpers implements Dependencies
                 e.printStackTrace();
             } } }
 
-
+    @Step
     public void scrolltoend() {
         boolean flag = true;
         Integer diffcount_horizontal = Integer.MAX_VALUE;
