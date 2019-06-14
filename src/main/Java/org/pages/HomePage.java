@@ -11,25 +11,34 @@ import org.slf4j.LoggerFactory;
 import org.utils.Helpers;
 //import static org.utils.LoggingManager.logMessage;
 
+import java.util.List;
+
+//import static org.utils.LoggingManager.logMessage;
+
 public class HomePage extends Helpers {
 
     AndroidDriver driver;
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
-//    @FindBy(xpath = "//a[@title='Log In'][1]")
-//    @AndroidFindBy(id = "login_button")
-    private WebElement homepagetab;
+    @AndroidFindBy(id = "com.airtel.tv:id/subSectionTitleView")
+    private List<WebElement> HomePageTitleList;
+
+    @AndroidFindBy(id = "com.airtel.tv:id/titleView")
+    private List<WebElement> HomePageRailList;
 
     public HomePage(AndroidDriver driver) throws InterruptedException {
         super(driver);
         this.driver = driver;
-//        PageFactory.initElements(driver, this);
-        log.info("Initializing the \"+this.getClass().getSimpleName()+\" elements");
-     //   logMessage("Initializing the "+this.getClass().getSimpleName()+" elements");
-//        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+        PageFactory.initElements(driver, this);
+        //logMessage("Initializing the "+this.getClass().getSimpleName()+" elements");
+        PageFactory.initElements(new AppiumFieldDecorator(driver), this);
         Thread.sleep(1000);
     }
 
+    public void HomePageScroll(){
+        scrolltoend(HomePageTitleList, HomePageRailList);
+
+    }
 
 
 }

@@ -57,12 +57,12 @@ public class Helpers implements Dependencies
                 System.out.println("Last Title"   +title);
 
                 if (!str.contentEquals(title)) {
-                    scrolltoend();
+                    //scrolltoend();
                     test(DOWN_key);
                     System.out.println("Down key pressed");
                 } else{
                     flag = false;
-                    scrolltoend();
+                    //scrolltoend();
                     break;
                 }
             }
@@ -71,37 +71,30 @@ public class Helpers implements Dependencies
             } } }
 
     @Step
-    public void scrolltoend() {
-        boolean flag = true;
+    public void scrolltoend(List<WebElement> e1, List<WebElement> e2) {
         Integer diffcount_horizontal = Integer.MAX_VALUE;
         while (diffcount_horizontal > 0) {
             Set<String> set_a = new HashSet<String>();
             try {
-                List<WebElement> Title = driver.findElementsById("com.airtel.tv:id/subSectionTitleView");
+                List<WebElement> Title = e1;
                 Boolean title_is_displayed = Title.get(0).isDisplayed();
                 if (title_is_displayed) {
                     System.out.println("DLogs " + Title.get(0).getText().toString());
-                    List<WebElement> List1 = driver.findElementsById("com.airtel.tv:id/titleView");
+                    List<WebElement> List1 = e2;
                     int l1 = List1.size();
                     System.out.println("Movies Present in first set =" + List1.size());
                     for (int i = 0; i < l1; i++) {
                         String s1 = List1.get(i).getText();
                         System.out.println(s1);
                         set_a.add(s1);
-                        if (flag = true) {
-                            WebElement row = driver.findElementByXPath("//android.widget.RelativeLayout[@index='0']");
-                            if (row.isDisplayed()) {
-                                test(Right_Key);
-                            }
-                            flag = false;
-                        } } }
+                        }
+                }
             } catch (Exception e) {
                 test(DOWN_key);
                 test(DOWN_key);
-
             }
             Set<String> set_b = new HashSet<String>();
-            List<WebElement> List2 = driver.findElementsById("com.airtel.tv:id/titleView");
+            List<WebElement> List2 = e2;
             int l2 = List2.size();
             System.out.println("Movies Present in Second set =" + List2.size());
             for (int j = 0; j < l2; j++) {
@@ -122,6 +115,8 @@ public class Helpers implements Dependencies
                 set_b.clear();
             } }
         System.out.println("Reached End ! Success"); }
+
+
 
     public void ContentDesc(AndroidDriver driver) throws InterruptedException {
 
