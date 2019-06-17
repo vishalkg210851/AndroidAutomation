@@ -12,6 +12,7 @@ import org.utils.Helpers;
 //import static org.utils.LoggingManager.logMessage;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 //import static org.utils.LoggingManager.logMessage;
 
@@ -36,7 +37,10 @@ public class HomePage extends Helpers {
     }
 
     public void HomePageScroll(){
-        scrolltoend(HomePageTitleList, HomePageRailList);
+        try{
+        scrolltoend(HomePageTitleList, HomePageRailList);}catch (Exception e){
+            System.out.println("Element not found");
+        }
 
     }
 

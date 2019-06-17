@@ -25,7 +25,7 @@ public class Base_Class {
 
     @Parameters({"platformType", "platformName", "model"})
     @BeforeMethod
-    public void setupDriver(String platformType, String platformName, @Optional String model) throws Exception {
+    public void setupDriver(String platformType, String platformName, String model) throws Exception {
           log.info("finding the platform type");
         if (platformType.equalsIgnoreCase("Android")) {
             log.info("Setting up the Android Driver");
@@ -35,7 +35,6 @@ public class Base_Class {
 
     public void setupMobileDriver(String platformName, String model) throws Exception {
         if (platformName.equalsIgnoreCase("Mobile")) {
-            log.info("Setting up the Mobile Driver");
             driver = new AndroidDriverClass().setupDriver(model);
         }
         log.info(model+"driver has been created for execution");
@@ -45,6 +44,7 @@ public class Base_Class {
 
     @AfterMethod
     public void teardownDriver() {
+        log.info("Quiting driver");
         driver.quit();
     }
 

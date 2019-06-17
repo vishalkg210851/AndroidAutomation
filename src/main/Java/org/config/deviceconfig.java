@@ -12,6 +12,7 @@ public class deviceconfig {
         ObjectMapper objectMapper = new ObjectMapper();
         jsonData = Files.readAllBytes(FileUtils.getFile(FileUtility.getFile("androidDevice.json")).toPath());
         AndroidDeviceModel[] androidDeviceModels = objectMapper.readValue(jsonData, AndroidDeviceModel[].class);
+        System.out.println(androidDeviceModels);
         return new AndroidDeviceModel(androidDeviceModels);
     }
 

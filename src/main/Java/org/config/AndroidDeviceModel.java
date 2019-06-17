@@ -28,6 +28,10 @@ public class AndroidDeviceModel {
 
     public AndroidDeviceModel() {}
 
+    public AndroidDeviceModel getAndroidDevice(){
+        return Arrays.stream(androidDeviceModels).findFirst().get();
+    }
+
     public AndroidDeviceModel getAndroidDeviceByName(String deviceName) {
         return Arrays.stream(androidDeviceModels).filter(androidDeviceModel -> androidDeviceModel.getName().equalsIgnoreCase(deviceName)).findFirst().get();
     }

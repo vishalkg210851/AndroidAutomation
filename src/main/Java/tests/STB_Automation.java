@@ -15,8 +15,7 @@ public class STB_Automation extends Base_Class {
     @Description("Test Description:Scroll till the end of the page")
     public void TestHomePage() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
-        log.info("Calling the function to scroll till the end");
-        homePage.HomePageScroll();
+        log.info("Calling Test Func");
     }
 }
 

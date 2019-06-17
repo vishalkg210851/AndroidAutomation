@@ -67,7 +67,7 @@ public class TestListener extends Base_Class implements ITestListener {
 
         //Get driver from Base_Class and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
-        AndroidDriver driver = ((Base_Class) testClass).getDriver();
+       AndroidDriver driver = ((Base_Class) testClass).getDriver();
 
         //Allure ScreenShotRobot and SaveTestLog
         if (driver instanceof AndroidDriver) {
