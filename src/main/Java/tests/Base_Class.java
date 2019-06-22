@@ -1,27 +1,40 @@
 package tests;
-import io.appium.java_client.android.AndroidDriver;
-import io.qameta.allure.Description;
+import io.appium.java_client.AppiumDriver;
+import org.Appium.AppiumServer;
 import org.driver.AndroidDriverClass;
-import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
-
 import java.io.IOException;
 //import static org.utils.LoggingManager.logMessage;
 
-
 public class Base_Class {
 
-    public AndroidDriver driver;
+    public static AppiumDriver driver;
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
-//    @BeforeSuite
-//    public void browse() throws IOException, InterruptedException
-//    {
-//        Runtime.getRuntime().exec("cmd /c start C:\\appiumstart.sh");
-//        Thread.sleep(7000L);
-//    }
+    @Parameters({"platformType", "platformName"})
+    @BeforeTest
+    public void startAppiumServer(String platformType, String platformName) throws IOException {
+        if (platformType.equalsIgnoreCase("Android")) {
+            killExistingAppiumProcess();
+            if (AppiumServer.appium == null || !AppiumServer.appium.isRunning()) {
+                AppiumServer.start();
+                log.info("Appium server has been started");
+            }
+        }
+    }
+
+    @Parameters({"platformType", "platformName"})
+    @AfterTest
+    public void stopAppiumServer(String platformType, String platformName) throws IOException {
+        if (platformType.equalsIgnoreCase("Android")) {
+            if (AppiumServer.appium != null || AppiumServer.appium.isRunning()) {
+                AppiumServer.stop();
+                log.info("Appium server has been stopped");
+            }
+        }
+    }
 
     @Parameters({"platformType", "platformName", "model"})
     @BeforeMethod
@@ -41,15 +54,17 @@ public class Base_Class {
         //logMessage(model + " driver has been created for execution");
     }
 
-
     @AfterMethod
     public void teardownDriver() {
         log.info("Quiting driver");
-        driver.quit();
+//        driver.quit();
     }
 
-    public AndroidDriver getDriver() {
+    public AppiumDriver getDriver() {
         return driver;
+    }
+    private void killExistingAppiumProcess() throws IOException {
+        Runtime.getRuntime().exec("killall node");
+    }
 
-}
 }

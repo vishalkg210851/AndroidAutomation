@@ -3,17 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="8a247ed9-4840-40e8-b7c2-add698c03ae9" name="Default Changelist" comment="Page Object Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/resources/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/androidDevice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/utils/FileUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/utils/FileUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,32 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Base_Class.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Base_Class.java">
+      <file leaf-file-name="Helpers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deviceconfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="436">
+              <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidDriverClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -61,8 +44,8 @@
       <file leaf-file-name="STB_Automation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,30 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidDeviceModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1777#1778#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="androidDevice.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -122,6 +89,14 @@
       <find>WebDriver</find>
       <find>WebDrive</find>
       <find>WebDriv</find>
+      <find>gso</find>
+      <find>selenium</find>
+      <find>http</find>
+      <find>apache</find>
+      <find>guava</find>
+      <find>test</find>
+      <find>java-cl</find>
+      <find>java</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,8 +118,6 @@
         <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/org/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/LoggingManager.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/ScreenShotUtility.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/TestListners.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/TestListner.java" />
@@ -152,14 +125,18 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/org/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/FileUtility.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/androidDevice.json" />
         <option value="$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/Appium/AppiumServer.java" />
         <option value="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/androidDevice.json" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
       </list>
     </option>
   </component>
@@ -186,11 +163,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="28" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="830" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -199,34 +175,33 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -234,7 +209,52 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="Appium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -243,7 +263,7 @@
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -251,21 +271,17 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="STB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,34 +537,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 19h 20m 51s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 03m 00s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 19h 25m 02s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 04m 49s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 19h 45m 44s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 06m 09s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 19h 48m 33s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 13m 08s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 17m 03s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 14m 58s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 26m 08s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 20m 32s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 27m 40s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 23m 20s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 31m 58s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 25m 15s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 33m 07s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 30m 25s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.16 at 20h 33m 25s.xml">
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.22 at 16h 32m 36s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -562,85 +578,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="23" width="1440" height="830" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32789117" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49930555" weight="0.32517007" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32469305" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028612" side_tool="true" weight="0.5020408" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073636" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900944" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49713877" visible="true" weight="0.31650752" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49642345" weight="0.46258503" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287858" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19781719" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49930555" weight="0.3298153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.4" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.40927693" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32608697" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3298969" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27393225" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.5028986" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073636" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19855073" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49930555" weight="0.3298153" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26656848" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.5028986" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289855" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073636" side_tool="true" weight="0.4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32608697" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -668,41 +636,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Page Object Changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Page Object Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java</url>
-          <line>14</line>
-          <properties field="androidDeviceModels" class="org.config.AndroidDeviceModel" />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="62" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/LoggingManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -713,13 +659,6 @@
     <entry file="file://$PROJECT_DIR$/allure-results/0cefc26a-6bfa-4c67-bcc1-8c85996e5e96-container.json" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/TestListners.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -734,18 +673,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/androidDevice.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/androidDevice.json" />
     <entry file="file://$PROJECT_DIR$/androidDevice.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -758,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="333" selection-start-line="333" selection-end-line="333" />
-          <folding>
-            <element signature="e#11597#11598#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="269" selection-start-line="269" selection-end-line="269" />
-          <folding>
-            <element signature="e#11384#11385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/FileUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -847,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="5003" selection-start-line="5003" selection-end-line="5003" />
-          <folding>
-            <element signature="e#223197#223198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,40 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#2871#2879#0" expanded="true" />
-            <element signature="e#3726#3734#0" expanded="true" />
-            <element signature="e#4117#4125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -919,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#2896#2897#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="57" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#2342#2343#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,75 +855,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/Interface/Dependencies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="45">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="394" selection-start-line="394" selection-end-line="394" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/AndroidDeviceModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/config/deviceconfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="385" selection-start-line="385" selection-end-line="385" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="120">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/Appium/AppiumServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/FileUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Base_Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="975">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="173" column="5" lean-forward="true" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

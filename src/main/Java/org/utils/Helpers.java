@@ -4,7 +4,9 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import io.qameta.allure.Step;
 import org.Interface.Dependencies;
 import org.openqa.selenium.By;
@@ -21,15 +23,10 @@ import static io.restassured.RestAssured.given;
 
 public class Helpers implements Dependencies
     {
-        public AndroidDriver driver;
-        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?" +
-                "op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&" +
-                "refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chun" +
-                "gama%2Cmwtv%2Cndtv%2Czee5&dt=com.java.org.ST" +
-                "B&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=SDK";
-        String pageID = "5b4c82f8abbba8a60dcd384b";
+        public AppiumDriver driver;
+        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STB&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=SDK";
 
-    public Helpers(AndroidDriver driver){
+    public Helpers(AppiumDriver driver){
         this.driver = driver;
     }
 
@@ -39,7 +36,7 @@ public class Helpers implements Dependencies
             Runtime.getRuntime().exec(key);}
             catch (Exception e)
         { e.printStackTrace(); } }
-    @Step
+
     public void scrollVertical(){
 
         boolean flag = true;
@@ -49,20 +46,19 @@ public class Helpers implements Dependencies
         int counter = 1;
         while (flag) {
             try {
-                WebDriverWait wait=new WebDriverWait(driver,90);
-                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.airtel.tv:id/subSectionTitleView")));
-                WebElement subSectionTitleView = driver.findElementById("com.airtel.tv:id/subSectionTitleView");
-                String str = subSectionTitleView.getText().trim();
-                System.out.println("Current Title"   +str);
+                test(DOWN_key);
+                test(DOWN_key);
+                Thread.sleep(3000);
+                WebDriverWait wait = new WebDriverWait(driver, 10);
+                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.airtel.tv:id/railTitleID")));
+                String str = driver.findElement(By.id("com.airtel.tv:id/railTitleID")).getText().trim();
+                System.out.println("Current Title DLogs"   +str);
                 System.out.println("Last Title"   +title);
-
                 if (!str.contentEquals(title)) {
-                    //scrolltoend();
                     test(DOWN_key);
                     System.out.println("Down key pressed");
                 } else{
                     flag = false;
-                    //scrolltoend();
                     break;
                 }
             }
@@ -70,8 +66,9 @@ public class Helpers implements Dependencies
                 e.printStackTrace();
             } } }
 
-    @Step
     public void scrolltoend(List<WebElement> e1, List<WebElement> e2) {
+        System.out.println("DLogs " + e1);
+        System.out.println("DLogs " + e2);
         Integer diffcount_horizontal = Integer.MAX_VALUE;
         while (diffcount_horizontal > 0) {
             Set<String> set_a = new HashSet<String>();
@@ -79,7 +76,7 @@ public class Helpers implements Dependencies
                 List<WebElement> Title = e1;
                 Boolean title_is_displayed = Title.get(0).isDisplayed();
                 if (title_is_displayed) {
-                    System.out.println("DLogs " + Title.get(0).getText().toString());
+                    System.out.println("DLogs " + Title.get(0).getText());
                     List<WebElement> List1 = e2;
                     int l1 = List1.size();
                     System.out.println("Movies Present in first set =" + List1.size());
@@ -117,8 +114,7 @@ public class Helpers implements Dependencies
         System.out.println("Reached End ! Success"); }
 
 
-
-    public void ContentDesc(AndroidDriver driver) throws InterruptedException {
+    public void ContentDesc(AppiumDriver driver) throws InterruptedException {
 
         try {
             Thread.sleep(5000);
@@ -127,7 +123,7 @@ public class Helpers implements Dependencies
             ContentClick.click();
             Thread.sleep(5000);
             WebDriverWait wait_desc=new WebDriverWait(driver,90);
-            wait_desc.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.airtel.tv:id/tvDescription")));
+            //wait_desc.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.airtel.tv:id/tvDescription")));
             WebElement Movie_Title = driver.findElementByXPath("//android.widget.TextView[@index='0']");
             if(Movie_Title.isDisplayed()){
                 Movie_Title.getText();
@@ -151,13 +147,11 @@ public class Helpers implements Dependencies
                     param("pageId", pageID).
                     when().
                     get(URL);
-            String stringresponse = response.asString();
-            String prettystyring = toPrettyJson(stringresponse);
-            int size = response.jsonPath().getList("$").size();
+            List<String> jsonresponse = response.jsonPath().getList("$");
+            int size = jsonresponse.size();
             System.out.println("Dlogs:- " + size);
-
             List<Map<String, String>> formatvalue = response.jsonPath().getList("format");
-            title = formatvalue.get(size - 3).get("t");
+            title = formatvalue.get(size - 1).get("t");
             System.out.println("Title from API = " + title);
         } catch (Exception e) {
             System.out.println("Exception found: "

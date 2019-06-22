@@ -1,12 +1,23 @@
 [
   {
-    "name": "nexus",
     "deviceName": "emulator-5554",
-    "platformName": "Android",
-    "platformVersion": "8",
-    "automationName": "UIAutomator2",
+    "automationName": "uiautomator2",
     "packageName": "tv.accedo.airtel.wynk.debug",
     "activity": "tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity",
-    "reset": true
+    "platformName": "Android",
+    "platformVersion": "8.0"
   }
 ]
+
+//[
+//  {
+//    "deviceName": "hsw4026atl",
+//    "automationName": "uiautomator2",
+//    "packageName": "com.airtel.tv",
+//    "activity": "com.airtel.tv.MainActivity",
+//    "platformName": "Android",
+//    "platformVersion": "9.0"
+//  }
+//]
+
+

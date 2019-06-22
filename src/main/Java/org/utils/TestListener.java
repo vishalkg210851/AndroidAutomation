@@ -1,10 +1,12 @@
 package org.utils;
 
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
@@ -45,7 +47,7 @@ public class TestListener extends Base_Class implements ITestListener {
 
     //Text attachments for Allure
     @Attachment(value = "Page screenshot", type = "image/png")
-    public byte[] saveScreenshotPNG (AndroidDriver driver) {
+    public byte[] saveScreenshotPNG (AppiumDriver driver) {
         return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 
@@ -67,10 +69,10 @@ public class TestListener extends Base_Class implements ITestListener {
 
         //Get driver from Base_Class and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
-       AndroidDriver driver = ((Base_Class) testClass).getDriver();
+       AppiumDriver driver = ((Base_Class) testClass).getDriver();
 
         //Allure ScreenShotRobot and SaveTestLog
-        if (driver instanceof AndroidDriver) {
+        if (driver instanceof AppiumDriver) {
             System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
         }

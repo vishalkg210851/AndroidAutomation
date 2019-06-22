@@ -2,20 +2,30 @@ package tests;
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
+import org.Interface.Dependencies;
 import org.pages.HomePage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
-public class STB_Automation extends Base_Class {
+public class STB_Automation extends Base_Class implements Dependencies {
     private Logger log = LoggerFactory.getLogger(this.getClass());
+
+    private void test(String key) {
+        try {
+            Runtime.getRuntime().exec(key);}
+        catch (Exception e)
+        { e.printStackTrace(); } }
 
     @Test(priority =0, description = "Testing HomePage")
     @Severity(SeverityLevel.NORMAL)
     @Description("Test Description:Scroll till the end of the page")
     public void TestHomePage() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
-        log.info("Calling Test Func");
+        log.info("Calling Back Func");
+        Thread.sleep(10000);
+        System.out.println("Dlogs " + homePage.HomePageTest());
+
     }
 }
 
