@@ -7,24 +7,24 @@ import org.pages.HomePage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
+import tests.Python_Interpreter;
 
-public class STB_Automation extends Base_Class implements Dependencies {
+public class STB_Automation extends Base_Class {
     private Logger log = LoggerFactory.getLogger(this.getClass());
+    HomePage homePage;
 
-    private void test(String key) {
-        try {
-            Runtime.getRuntime().exec(key);}
-        catch (Exception e)
-        { e.printStackTrace(); } }
+    @Test(priority = 1, description = "Testing HomePage")
+    public void TestHomePage() {
+        homePage = new HomePage(driver);
+        homePage.HomePageTest();
+        log.info("Home Page connected");
+        //new Python_Interpreter();
+    }
 
-    @Test(priority =0, description = "Testing HomePage")
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Test Description:Scroll till the end of the page")
-    public void TestHomePage() throws InterruptedException {
-        HomePage homePage = new HomePage(driver);
-        log.info("Calling Back Func");
-        Thread.sleep(10000);
-        System.out.println("Dlogs " + homePage.HomePageTest());
+    @Test(priority = 2, description = "Home Page Scrolling")
+    public void TestHomePageScroll(){
+        homePage.HomePageScrollTest();
+
 
     }
 }

@@ -10,8 +10,8 @@ public class HomePage extends Helpers {
 
     AppiumDriver driver;
 
-    @AndroidFindBy(id = "tv.accedo.airtel.wynk.debug:id/tvTAb")
-    public WebElement Home;
+    @AndroidFindBy(id = "tv.airtel.smartstick:id/row_header")
+    public WebElement RailTitle;
 
     public HomePage(AppiumDriver driver){
         super(driver);
@@ -20,8 +20,13 @@ public class HomePage extends Helpers {
     }
 
     public String HomePageTest(){
-        return Home.getText();
+        return RailTitle.getText();
     }
 
-}
+
+    public void HomePageScrollTest(){ scrollVertical(RailTitle);
+    }
+
+    }
+
 

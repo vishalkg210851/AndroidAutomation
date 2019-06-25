@@ -14,7 +14,7 @@ public class Base_Class {
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
     @Parameters({"platformType", "platformName"})
-    @BeforeTest
+    @BeforeSuite
     public void startAppiumServer(String platformType, String platformName) throws IOException {
         if (platformType.equalsIgnoreCase("Android")) {
             killExistingAppiumProcess();
@@ -26,7 +26,7 @@ public class Base_Class {
     }
 
     @Parameters({"platformType", "platformName"})
-    @AfterTest
+    @AfterSuite
     public void stopAppiumServer(String platformType, String platformName) throws IOException {
         if (platformType.equalsIgnoreCase("Android")) {
             if (AppiumServer.appium != null || AppiumServer.appium.isRunning()) {
@@ -37,7 +37,7 @@ public class Base_Class {
     }
 
     @Parameters({"platformType", "platformName", "model"})
-    @BeforeMethod
+    @BeforeClass
     public void setupDriver(String platformType, String platformName, String model) throws Exception {
           log.info("finding the platform type");
         if (platformType.equalsIgnoreCase("Android")) {
@@ -54,7 +54,7 @@ public class Base_Class {
         //logMessage(model + " driver has been created for execution");
     }
 
-    @AfterMethod
+    @AfterClass
     public void teardownDriver() {
         log.info("Quiting driver");
 //        driver.quit();

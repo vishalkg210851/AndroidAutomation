@@ -18,13 +18,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ExecutionException;
+
 import static io.restassured.RestAssured.given;
 
 
 public class Helpers implements Dependencies
     {
         public AppiumDriver driver;
-        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STB&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=SDK";
+        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STICK&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=XTREME";
 
     public Helpers(AppiumDriver driver){
         this.driver = driver;
@@ -37,34 +39,38 @@ public class Helpers implements Dependencies
             catch (Exception e)
         { e.printStackTrace(); } }
 
-    public void scrollVertical(){
+    public void scrollVertical(WebElement elem){
 
         boolean flag = true;
-        String HomepageID = "5b4c82f8abbba8a60dcd384b";
-        String title = Helpers.getPagelayout(HomepageID);
-        System.out.println("Last Title:- " + title);
-        int counter = 1;
-        while (flag) {
-            try {
-                test(DOWN_key);
-                test(DOWN_key);
-                Thread.sleep(3000);
-                WebDriverWait wait = new WebDriverWait(driver, 10);
-                wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.airtel.tv:id/railTitleID")));
-                String str = driver.findElement(By.id("com.airtel.tv:id/railTitleID")).getText().trim();
-                System.out.println("Current Title DLogs"   +str);
-                System.out.println("Last Title"   +title);
-                if (!str.contentEquals(title)) {
+        String HomepageID = "5bd05a82e4b0800562a32335";
+        String title;
+        try{
+            title = Helpers.getPagelayout(HomepageID);
+            System.out.println("Last Title:- " + title);
+
+            while (flag) {
+                try {
                     test(DOWN_key);
-                    System.out.println("Down key pressed");
-                } else{
-                    flag = false;
-                    break;
+                    test(DOWN_key);
+                    Thread.sleep(3000);
+                    WebDriverWait wait = new WebDriverWait(driver, 10);
+                    wait.until(ExpectedConditions.visibilityOf(elem));
+                    String str = elem.getText().trim();
+                    System.out.println("Current Title DLogs"   +str);
+                    if (!str.contentEquals(title)) {
+                        test(DOWN_key);
+                        System.out.println("Down key pressed");
+                    } else{
+                        flag = false;
+                        break;
+                    }
                 }
-            }
-            catch(Exception e) {
-                e.printStackTrace();
-            } } }
+                catch(Exception e) {
+                    e.printStackTrace();
+                } }
+
+        }catch (Exception e){ System.out.println(e);}
+ }
 
     public void scrolltoend(List<WebElement> e1, List<WebElement> e2) {
         System.out.println("DLogs " + e1);

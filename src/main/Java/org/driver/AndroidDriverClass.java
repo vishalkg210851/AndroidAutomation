@@ -28,7 +28,7 @@ public class AndroidDriverClass extends deviceconfig{
             capabilities.setCapability("version",device.getPlatformVersion());
             capabilities.setCapability("noReset","true");
             capabilities.setCapability("appActivity",device.getActivity());
-            driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+            driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             return driver;
     }
