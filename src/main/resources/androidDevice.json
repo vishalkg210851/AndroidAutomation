@@ -1,13 +1,25 @@
 [
   {
-    "deviceName": "AirtelStick",
+    "deviceName": "emulator-5554",
     "automationName": "uiautomator2",
-    "packageName": "tv.airtel.smartstick",
-    "activity": "MainActivityHomeAlias",
+    "packageName": "tv.accedo.airtel.wynk.debug",
+    "activity": "tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity",
     "platformName": "Android",
     "platformVersion": "8.0"
   }
 ]
+
+
+//[
+//  {
+//    "deviceName": "AirtelStick",
+//    "automationName": "uiautomator2",
+//    "packageName": "tv.airtel.smartstick",
+//    "activity": "MainActivityHomeAlias",
+//    "platformName": "Android",
+//    "platformVersion": "8.0"
+//  }
+//]
 
 //[
 //  {
@@ -20,15 +32,6 @@
 //  }
 //]
 
-//[
-//  {
-//    "deviceName": "emulator-5554",
-//    "automationName": "uiautomator2",
-//    "packageName": "tv.accedo.airtel.wynk.debug",
-//    "activity": "tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity",
-//    "platformName": "Android",
-//    "platformVersion": "8.0"
-//  }
-//]
+
 
 

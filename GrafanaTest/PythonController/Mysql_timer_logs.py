@@ -4,9 +4,9 @@ import threading
 warnings.filterwarnings('ignore')
 import threading
 import requests
-from Database.MysqlDB_SetData import *
-from Utilities.json_file import *
-from Utilities.adb_logcat import *
+from GrafanaTest.Database.MysqlDB_SetData import *
+from GrafanaTest.Utilities.json_file import *
+from GrafanaTest.Utilities.adb_logcat import *
 
 list_val1 = []
 list_val2 = []
@@ -33,7 +33,7 @@ def check_for_spike(val1, val2, val3):
 
 def chronJob(arg):
     try:
-        threading.Timer(5.0, chronJob, (arg,)).start()
+        #threading.Timer(5.0, chronJob, (arg,)).start()
         val1, val2, val3, val4 = call_api()
         print val3
         if val4 != "No device":

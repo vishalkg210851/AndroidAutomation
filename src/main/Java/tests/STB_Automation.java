@@ -7,27 +7,31 @@ import org.pages.HomePage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
-import tests.Python_Interpreter;
+
+import java.io.IOException;
+
 
 public class STB_Automation extends Base_Class {
     private Logger log = LoggerFactory.getLogger(this.getClass());
     HomePage homePage;
 
     @Test(priority = 1, description = "Testing HomePage")
-    public void TestHomePage() {
+    public void TestHomePage() throws IOException {
         homePage = new HomePage(driver);
-        homePage.HomePageTest();
+        //homePage.HomePageTest();
         log.info("Home Page connected");
         new Python_Interpreter();
-    }
-
-    @Test(priority = 2, description = "Home Page Scrolling")
-    public void TestHomePageScroll(){
-        //homePage.HomePageScrollTest();
-        //homePage.Vscroll("British TV");
-
+        Python_Interpreter.main();
 
     }
+
+//    @Test(priority = 2, description = "Home Page Scrolling")
+//    public void TestHomePageScroll(){
+//        //homePage.HomePageScrollTest();
+//        //homePage.Vscroll("British TV");
+//
+//
+//    }
 }
 
 
