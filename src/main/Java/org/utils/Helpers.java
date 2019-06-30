@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.qameta.allure.Step;
@@ -23,28 +24,29 @@ import java.util.concurrent.ExecutionException;
 import static io.restassured.RestAssured.given;
 
 
-public class Helpers implements Dependencies
-    {
-        public AppiumDriver driver;
-        static  String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STICK&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=XTREME";
+public class Helpers implements Dependencies {
+    public AppiumDriver driver;
+    static String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STICK&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=XTREME";
 
-    public Helpers(AppiumDriver driver){
+    public Helpers(AppiumDriver driver) {
         this.driver = driver;
     }
 
 
     private void test(String key) {
         try {
-            Runtime.getRuntime().exec(key);}
-            catch (Exception e)
-        { e.printStackTrace(); } }
+            Runtime.getRuntime().exec(key);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
-    public void scrollVertical(WebElement elem){
+    public void scrollVertical(WebElement elem) {
 
         boolean flag = true;
         String HomepageID = "5bd05a82e4b0800562a32335";
         String title;
-        try{
+        try {
             title = Helpers.getPagelayout(HomepageID);
             System.out.println("Last Title:- " + title);
 
@@ -56,21 +58,23 @@ public class Helpers implements Dependencies
                     WebDriverWait wait = new WebDriverWait(driver, 10);
                     wait.until(ExpectedConditions.visibilityOf(elem));
                     String str = elem.getText().trim();
-                    System.out.println("Current Title DLogs"   +str);
+                    System.out.println("Current Title DLogs" + str);
                     if (!str.contentEquals(title)) {
                         test(DOWN_key);
                         System.out.println("Down key pressed");
-                    } else{
+                    } else {
                         flag = false;
                         break;
                     }
-                }
-                catch(Exception e) {
+                } catch (Exception e) {
                     e.printStackTrace();
-                } }
+                }
+            }
 
-        }catch (Exception e){ System.out.println(e);}
- }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
 
     public void scrolltoend(List<WebElement> e1, List<WebElement> e2) {
         System.out.println("DLogs " + e1);
@@ -90,7 +94,7 @@ public class Helpers implements Dependencies
                         String s1 = List1.get(i).getText();
                         System.out.println(s1);
                         set_a.add(s1);
-                        }
+                    }
                 }
             } catch (Exception e) {
                 test(DOWN_key);
@@ -116,8 +120,10 @@ public class Helpers implements Dependencies
                 test(Right_Key);
                 set_a.clear();
                 set_b.clear();
-            } }
-        System.out.println("Reached End ! Success"); }
+            }
+        }
+        System.out.println("Reached End ! Success");
+    }
 
 
     public void ContentDesc(AppiumDriver driver) throws InterruptedException {
@@ -128,10 +134,10 @@ public class Helpers implements Dependencies
             ContentClick.getText();
             ContentClick.click();
             Thread.sleep(5000);
-            WebDriverWait wait_desc=new WebDriverWait(driver,90);
+            WebDriverWait wait_desc = new WebDriverWait(driver, 90);
             //wait_desc.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.airtel.tv:id/tvDescription")));
             WebElement Movie_Title = driver.findElementByXPath("//android.widget.TextView[@index='0']");
-            if(Movie_Title.isDisplayed()){
+            if (Movie_Title.isDisplayed()) {
                 Movie_Title.getText();
                 System.out.println("Displayed Movie Title:-" + Movie_Title);
             }
@@ -165,7 +171,8 @@ public class Helpers implements Dependencies
         }
         return title;
     }
-        public static String toPrettyJson(String uglyJSONString) {
+
+    public static String toPrettyJson(String uglyJSONString) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JsonParser jp = new JsonParser();
         JsonElement je = jp.parse(uglyJSONString);
@@ -177,8 +184,28 @@ public class Helpers implements Dependencies
         return new Gson().toJson(obj);
     }
 
+    public void Vscroll(String str) {
+        WebElement element = driver.findElement(MobileBy.AndroidUIAutomator(
+                "new UiScrollable(new UiSelector().className(\"android.support.v7.widget.RecyclerView\")).getChildByText("
+                        + "new UiSelector().className(\"android.widget.TextView\"), \""+str+"\")"));
+        element.click();
+
+    }
+
+    public void Vscroll_new(String str) {
+        WebElement element = driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector())." +
+                "scrollIntoView(new UiSelector().descriptionContains(\""+ str+ "\"));"));
+        element.click();
     }
 
 
+        public void Hscroll() {
+            WebElement element = driver.findElement(MobileBy.AndroidUIAutomator(                                                                                                                                                                                                                                                                                               				"new UiScrollable(new UiSelector().className(\"android.widget.LinearLayout\"))." +
+                                        "setAsHorizontalList().scrollIntoView("
+                				+ "new UiSelector().descriptionContains(\"Continue Watching\"))"));
+            System.out.println(element.getAttribute("id"));
+    }
 
+}
+        
 

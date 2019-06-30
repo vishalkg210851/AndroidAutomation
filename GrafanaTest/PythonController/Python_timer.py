@@ -1,6 +1,8 @@
 import warnings
+
 warnings.filterwarnings('ignore')
 import threading, sys
+import os
 import requests
 from Database.InfluxDB_SetData import *
 from Utilities.json_file import *
@@ -14,7 +16,7 @@ def call_API_devicename():
 
 def chronJob_devicename(arg):
     try:
-        threading.Timer(5.0, chronJob_devicename, (arg,)).start()
+        # threading.Timer(5.0, chronJob_devicename, (arg,)).start()
         str_val = call_API_devicename()
         print str_val
         if str_val:
@@ -33,7 +35,7 @@ def call_API_Jenky():
 
 def chronJob_Jenky(arg):
     try:
-        threading.Timer(5.0, chronJob_Jenky, (arg,)).start()
+        # threading.Timer(5.0, chronJob_Jenky, (arg,)).start()
         int_val = call_API_Jenky()
         print int_val
         if int_val:
@@ -52,7 +54,7 @@ def call_API_CPU():
 
 def chronJob_CPU(arg):
     try:
-        threading.Timer(5.0, chronJob_CPU, (arg,)).start()
+        # threading.Timer(5.0, chronJob_CPU, (arg,)).start()
         float_val = call_API_CPU()
         print float_val
         if float_val:
@@ -71,7 +73,7 @@ def call_API_Memory():
 
 def chronJob_Memory(arg):
     try:
-        threading.Timer(5.0, chronJob_Memory, (arg,)).start()
+        # threading.Timer(5.0, chronJob_Memory, (arg,)).start()
         int_val_memory = call_API_Memory()
         print int_val_memory
         if int_val_memory:

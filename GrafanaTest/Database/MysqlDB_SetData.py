@@ -7,7 +7,7 @@ class MysqlClient:
     def __init__(self):
         print "Inside Mysql"
         try:
-            self.conn = mysql.connector.connect(host='localhost', user='root', password='password',
+            self.conn = mysql.connector.connect(host='127.0.0.1', user='root', password='password',
                                                 auth_plugin='mysql_native_password')
             self.mycursor = self.conn.cursor()
             print('Connected to MySQL database')

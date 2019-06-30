@@ -18,12 +18,13 @@ public class STB_Automation extends Base_Class {
         homePage = new HomePage(driver);
         homePage.HomePageTest();
         log.info("Home Page connected");
-        //new Python_Interpreter();
+        new Python_Interpreter();
     }
 
     @Test(priority = 2, description = "Home Page Scrolling")
     public void TestHomePageScroll(){
-        homePage.HomePageScrollTest();
+        //homePage.HomePageScrollTest();
+        //homePage.Vscroll("British TV");
 
 
     }

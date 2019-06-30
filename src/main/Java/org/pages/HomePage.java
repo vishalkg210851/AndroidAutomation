@@ -26,7 +26,6 @@ public class HomePage extends Helpers {
 
     public void HomePageScrollTest(){ scrollVertical(RailTitle);
     }
-
     }
 
 

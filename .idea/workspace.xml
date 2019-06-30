@@ -2,30 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a247ed9-4840-40e8-b7c2-add698c03ae9" name="Default Changelist" comment="Page Object Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/Check_Adb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/getdata1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/getdata_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlDB_SetData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer_logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Python_timer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/adb_logcat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/json_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Python/GrafanaTest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STB.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/GrafanaTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/Check_Adb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/getdata1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/ApiSuit/getdata_api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/InfluxDB_SetData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlDB_SetData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer_logs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Python_timer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/adb_logcat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/Utilities/json_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Python/GrafanaTest/__init__.py" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,35 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Base_Class.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Base_Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="STB_Automation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Python_Interpreter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="240">
+              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,38 +58,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="androidDevice.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
+      <file leaf-file-name="Mysql_timer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helpers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6785#6786#0" expanded="true" />
-                <element signature="e#6830#6831#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,6 +86,7 @@
       <list>
         <option value="XML Properties File" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -179,14 +146,23 @@
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/Appium/AppiumServer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" />
         <option value="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" />
         <option value="$PROJECT_DIR$/src/main/resources/androidDevice.json" />
-        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
         <option value="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Python_timer.py" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Setup.py" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/test.py" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer.py" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlDB_SetData.py" />
+        <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlJDBC.py" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/test.py" />
+        <option value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Mysql_timer.py" />
+        <option value="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" />
+        <option value="$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer.py" />
       </list>
     </option>
   </component>
@@ -216,15 +192,13 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,97 +209,64 @@
             <path>
               <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AndroidAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="Java" type="cbb8eebc:String" user="Java" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="version&#9;ACTION&#9;ActivateVersionControlToolWindow&#10;ver&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559543396429" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7 virtualenv at ~/Downloads/ApiTest/DataCamp/venv" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/Python" />
+      <recent name="$PROJECT_DIR$/src/main/Java/org/utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/Python" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/Java/org/utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,8 +281,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml">
-    <configuration name="STB_Automation (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Python_Interpreter">
+    <configuration name="Python_Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.Python_Interpreter" />
       <module name="STB" />
       <extension name="coverage">
         <pattern>
@@ -349,101 +291,60 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.STB_Automation" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
-    <configuration name="STB_Automation.TestHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mysql_timer (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="STB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.STB_Automation" />
-      <option name="METHOD_NAME" value="TestHomePage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Mysql_timer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/Java/org/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Mysql_timer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="STB" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/Java/org/resources/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="STB" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="STB" />
@@ -524,18 +425,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG./Users/b0210731/AndroidAutomation/testng.xml" />
-      <item itemvalue="TestNG.STB_Automation (2)" />
-      <item itemvalue="TestNG.STB_Automation.TestHomePage" />
-      <item itemvalue="TestNG./Users/b0204290/Documents/AndroidAutomation/src/main/Java/org/resources/testng.xml" />
-      <item itemvalue="TestNG./Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" />
+      <item itemvalue="Application.Python_Interpreter" />
+      <item itemvalue="Python.Mysql_timer" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Mysql_timer (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" />
-        <item itemvalue="TestNG./Users/b0204290/Documents/AndroidAutomation/src/main/Java/org/resources/testng.xml" />
+        <item itemvalue="Application.Python_Interpreter" />
+        <item itemvalue="Python.Mysql_timer (1)" />
+        <item itemvalue="Python.Mysql_timer" />
+        <item itemvalue="Python.test" />
         <item itemvalue="TestNG./Users/b0210731/AndroidAutomation/testng.xml" />
-        <item itemvalue="TestNG.STB_Automation.TestHomePage" />
-        <item itemvalue="TestNG.STB_Automation (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -561,35 +462,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.24 at 17h 46m 09s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 06m 43s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.24 at 17h 52m 26s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 34m 34s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.24 at 17h 58m 28s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 36m 37s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.24 at 18h 02m 46s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 40m 20s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.24 at 18h 08m 22s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 47m 04s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.25 at 12h 21m 12s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 47m 48s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.25 at 13h 28m 31s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 49m 34s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.25 at 14h 23m 16s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 12h 51m 45s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.25 at 14h 24m 14s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 13h 17m 46s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_src_main_resources_testng_xml - 2019.06.25 at 14h 26m 34s.xml">
-      <configuration name="/Users/b0204290/Documents/AndroidAutomation/src/main/resources/testng.xml" configurationId="TestNG" />
+    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 13h 20m 04s.xml">
+      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -602,29 +503,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3287858" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32469305" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3282123" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32344633" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073636" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287858" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.34497207" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19781719" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.4180791" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37570623" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3304721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.40927693" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.37853107" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3298969" />
@@ -669,110 +570,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="62" />
+      <option name="time" value="83" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/TestListners.java" />
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/androidDevice.json" />
-    <entry file="file://$PROJECT_DIR$/androidDevice.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="333" selection-start-line="333" selection-end-line="333" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StringCoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="329" selection-start-line="329" selection-end-line="329" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="917" selection-start-line="917" selection-end-line="917" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/UnixFileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="841" selection-start-line="841" selection-end-line="841" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="659" selection-start-line="659" selection-end-line="659" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/invoke/DirectMethodHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/invoke/LambdaForm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/internal/DynamicGraph.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/IOUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="820" selection-start-line="820" selection-end-line="820" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -910,9 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,7 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Python/GrafanaTest/.idea/vcs.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
@@ -961,77 +753,175 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Base_Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/python/jython/2.7.0/jython-2.7.0.jar!/org/python/util/PythonInterpreter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="66" column="56" lean-forward="true" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6785#6786#0" expanded="true" />
-            <element signature="e#6830#6831#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2535">
+          <caret line="194" column="21" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/Database/InfluxDB_SetData.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Python_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Mysql_timer_logs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ApiTest/DataCamp/venv/lib/python2.7/site-packages/mysql/connector/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ApiTest/DataCamp/venv/lib/python2.7/site-packages/mysql/connector/connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="101" column="26" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ApiTest/DataCamp/venv/lib/python2.7/site-packages/mysql/connector/abstracts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10725">
+          <caret line="724" column="8" selection-start-line="724" selection-start-column="8" selection-end-line="724" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ApiTest/DataCamp/venv/lib/python2.7/site-packages/mysql/connector/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3795">
+          <caret line="257" column="49" selection-start-line="257" selection-start-column="49" selection-end-line="257" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/Database/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/ApiSuit/getdata1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/Database/MysqlJDBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="120">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/Setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/Database/MysqlDB_SetData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Mysql_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrafanaTest/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1052,7 +942,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Kotlin</last-edited>
+          <last-edited>Python (STB)|Python</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1064,6 +954,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Python 2.7 virtualenv at ~/Downloads/ApiTest/DataCamp/venv interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1075,7 +966,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Python 2.7 virtualenv at ~/Downloads/ApiTest/DataCamp/venv</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1087,7 +978,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>STB</last-edited>
+          <last-edited>Python|STB</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1099,11 +990,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>Python 2.7 (AndroidAutomation)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2325" />
               </list>
             </option>
           </splitter-proportions>

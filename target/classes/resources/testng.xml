@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Execution">
+    <parameter name="platformType" value="Android"/>
+    <parameter name="platformName" value="Mobile"/>
+    <parameter name="model" value=""/>
+    <test name="Test Suite - Android">
+        <classes>
+            <class name="tests.STB_Automation"/>
+        </classes>
+    </test>
+</suite>
