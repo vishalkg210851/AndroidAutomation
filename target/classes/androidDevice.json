@@ -1,13 +1,24 @@
 [
   {
-    "deviceName": "emulator-5554",
+    "deviceName": "hsw4026atl",
     "automationName": "uiautomator2",
-    "packageName": "tv.accedo.airtel.wynk.debug",
-    "activity": "tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity",
+    "packageName": "com.airtel.tv",
+    "activity": "com.airtel.tv.MainActivity",
     "platformName": "Android",
-    "platformVersion": "8.0"
+    "platformVersion": "9.0"
   }
 ]
+
+//[
+//  {
+//    "deviceName": "emulator-5554",
+//    "automationName": "uiautomator2",
+//    "packageName": "tv.accedo.airtel.wynk.debug",
+//    "activity": "tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity",
+//    "platformName": "Android",
+//    "platformVersion": "8.0"
+//  }
+//]
 
 
 //[
@@ -21,16 +32,6 @@
 //  }
 //]
 
-//[
-//  {
-//    "deviceName": "hsw4026atl",
-//    "automationName": "uiautomator2",
-//    "packageName": "com.airtel.tv",
-//    "activity": "com.airtel.tv.MainActivity",
-//    "platformName": "Android",
-//    "platformVersion": "9.0"
-//  }
-//]
 
 
 

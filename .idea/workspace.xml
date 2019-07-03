@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a247ed9-4840-40e8-b7c2-add698c03ae9" name="Default Changelist" comment="Page Object Changes">
-      <change beforePath="$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/androidDevice.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/androidDevice.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/androidDevice.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/androidDevice.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,44 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Python_Interpreter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MysqlDB_SetData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GrafanaTest/Database/MysqlDB_SetData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mysql_timer_logs.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer_logs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="STB_Automation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="STB_Automation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="144">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Helpers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -66,17 +48,8 @@
       <file leaf-file-name="androidDevice.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getdata_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GrafanaTest/ApiSuit/getdata_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -84,8 +57,8 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
@@ -165,21 +138,21 @@
         <option value="$PROJECT_DIR$/src/main/Java/org/driver/AndroidDriverClass.java" />
         <option value="$PROJECT_DIR$/src/main/Java/tests/Base_Class.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Python_timer.py" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Setup.py" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/test.py" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/PythonController/Mysql_timer.py" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlDB_SetData.py" />
         <option value="$PROJECT_DIR$/src/main/Python/GrafanaTest/Database/MysqlJDBC.py" />
-        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/test.py" />
         <option value="$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/PythonController/Mysql_timer.py" />
         <option value="$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer.py" />
-        <option value="$PROJECT_DIR$/src/main/resources/androidDevice.json" />
-        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
         <option value="$PROJECT_DIR$/GrafanaTest/PythonController/Mysql_timer_logs.py" />
         <option value="$PROJECT_DIR$/src/main/Java/tests/Python_Interpreter.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/androidDevice.json" />
       </list>
     </option>
   </component>
@@ -250,6 +223,11 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+              <item name="GrafanaTest" type="cbb8eebc:String" user="GrafanaTest" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
               <item name="src/main" type="cbb8eebc:String" user="src/main" />
             </path>
             <path>
@@ -257,6 +235,13 @@
               <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
               <item name="src/main" type="cbb8eebc:String" user="src/main" />
               <item name="Java" type="cbb8eebc:String" user="Java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="Java" type="cbb8eebc:String" user="Java" />
+              <item name="org" type="cbb8eebc:String" user="org" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -264,6 +249,11 @@
               <item name="src/main" type="cbb8eebc:String" user="src/main" />
               <item name="Java" type="cbb8eebc:String" user="Java" />
               <item name="tests" type="cbb8eebc:String" user="tests" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AndroidAutomation" type="cbb8eebc:String" user="AndroidAutomation" />
+              <item name="target" type="cbb8eebc:String" user="target" />
             </path>
           </expand>
           <select />
@@ -497,12 +487,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 13h 17m 46s.xml">
-      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_b0210731_AndroidAutomation_testng_xml - 2019.06.26 at 13h 20m 04s.xml">
-      <configuration name="/Users/b0210731/AndroidAutomation/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="STB_Automation - 2019.06.30 at 13h 20m 37s.xml">
       <configuration name="STB_Automation" configurationId="TestNG" />
     </history-entry>
@@ -525,6 +509,12 @@
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_b0204290_Documents_AndroidAutomation_testng_xml - 2019.06.30 at 13h 46m 50s.xml">
+      <configuration name="/Users/b0204290/Documents/AndroidAutomation/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_testng_xml - 2019.07.03 at 12h 45m 48s.xml">
+      <configuration name="/Users/b0204290/Documents/AndroidAutomation/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_b0204290_Documents_AndroidAutomation_testng_xml - 2019.07.03 at 12h 52m 14s.xml">
       <configuration name="/Users/b0204290/Documents/AndroidAutomation/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -550,7 +540,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50073636" side_tool="true" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287858" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.4180791" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.33474576" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.37570623" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
@@ -609,20 +599,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="639" selection-start-line="639" selection-end-line="639" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -742,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Python-Test/GrafanaTest/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -774,13 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="194" column="21" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -884,25 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.8/testng-6.8.8.jar!/org/testng/annotations/Parameters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -914,23 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GrafanaTest/ApiSuit/getdata_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,6 +877,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GrafanaTest/Setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrafanaTest/ApiSuit/getdata_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GrafanaTest/ApiSuit/getdata1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GrafanaTest/Database/MysqlDB_SetData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -962,6 +912,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/androidDevice.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/org/utils/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/tests/STB_Automation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,12 +6,20 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.utils.Helpers;
 
+import java.util.List;
+
 public class HomePage extends Helpers {
 
     AppiumDriver driver;
 
-    @AndroidFindBy(id = "tv.airtel.smartstick:id/row_header")
+    @AndroidFindBy(id = "com.airtel.tv:id/railTitleID")
     public WebElement RailTitle;
+
+    @AndroidFindBy(id = "com.airtel.tv:id/cardEpisode")
+    public List<WebElement> CardList;
+
+    @AndroidFindBy(id = "com.airtel.tv:id/tv_error_title")
+    public WebElement CardTitle;
 
     public HomePage(AppiumDriver driver){
         super(driver);
@@ -24,8 +32,12 @@ public class HomePage extends Helpers {
     }
 
 
-    public void HomePageScrollTest(){ scrollVertical(RailTitle);
+    public void HomePageVerticalScrollTest(){ scrollVertical(RailTitle);
     }
+
+    public void HomePageHorizontalScrollTest(){ scrolltoend(CardList, CardTitle);}
+
+
     }
 
 

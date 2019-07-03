@@ -1,7 +1,4 @@
 package tests;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
 import org.Interface.Dependencies;
 import org.pages.HomePage;
 import org.slf4j.Logger;
@@ -25,13 +22,21 @@ public class STB_Automation extends Base_Class {
 
     }
 
-//    @Test(priority = 2, description = "Home Page Scrolling")
-//    public void TestHomePageScroll(){
-//        //homePage.HomePageScrollTest();
-//        //homePage.Vscroll("British TV");
-//
-//
-//    }
+    @Test(priority = 2, description = "Home Page Horizontal Scrolling")
+    public void TestHomePageHScroll(){
+        homePage.test(Dependencies.DOWN_key);
+        homePage.test(Dependencies.DOWN_key);
+        homePage.HomePageHorizontalScrollTest();
+
+    }
+
+    @Test(priority = 3, description = "Home Page Vertical Scrolling")
+    public void TestHomePageVScroll(){
+        homePage.HomePageVerticalScrollTest();
+
+    }
+
+
 }
 
 
