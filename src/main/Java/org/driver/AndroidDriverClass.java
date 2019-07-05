@@ -2,11 +2,11 @@ package org.driver;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.MobileCapabilityType;
+import org.apache.log4j.Logger;
 import org.config.deviceconfig;
 import org.config.AndroidDeviceModel;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.IOException;
 import java.net.URL;
@@ -15,11 +15,12 @@ import java.util.concurrent.TimeUnit;
 public class AndroidDriverClass extends deviceconfig{
 
     private static AppiumDriver driver;
+    Logger log = Logger.getLogger("testinfolog");
 
     public AppiumDriver setupDriver(String model) throws IOException {
-        System.out.println("Inside AndroidDriver Class");
+        log.info("Inside AndroidDriver Class");
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        System.out.println("Dlogs: " + model);
+        log.info("Dlogs: " + model);
             AndroidDeviceModel device = readAndroidDeviceConfig().getAndroidDevice();
             capabilities.setCapability(MobileCapabilityType.VERSION, device.getPlatformVersion());
             capabilities.setCapability("deviceName",device.getDeviceName());

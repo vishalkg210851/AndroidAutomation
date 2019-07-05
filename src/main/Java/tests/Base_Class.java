@@ -1,17 +1,16 @@
 package tests;
 import io.appium.java_client.AppiumDriver;
 import org.Appium.AppiumServer;
+import org.apache.log4j.Logger;
 import org.driver.AndroidDriverClass;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 import java.io.IOException;
-//import static org.utils.LoggingManager.logMessage;
+
 
 public class Base_Class {
 
     public static AppiumDriver driver;
-    private Logger log = LoggerFactory.getLogger(this.getClass());
+    Logger log = Logger.getLogger("testinfolog");
 
     @Parameters({"platformType", "platformName"})
     @BeforeSuite

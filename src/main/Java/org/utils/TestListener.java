@@ -2,13 +2,11 @@ package org.utils;
 
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
+
 import io.qameta.allure.Attachment;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -18,7 +16,8 @@ import tests.Base_Class;
 
 public class TestListener extends Base_Class implements ITestListener {
 
-    private Logger Log = LoggerFactory.getLogger(this.getClass());
+
+    Logger Log = Logger.getLogger("testinfolog");
     private static String getTestMethodName(ITestResult iTestResult) {
         return iTestResult.getMethod().getConstructorOrMethod().getName();
     }
@@ -65,7 +64,7 @@ public class TestListener extends Base_Class implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
+        Log.info("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
 
         //Get driver from Base_Class and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
@@ -73,7 +72,7 @@ public class TestListener extends Base_Class implements ITestListener {
 
         //Allure ScreenShotRobot and SaveTestLog
         if (driver instanceof AppiumDriver) {
-            System.out.println("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+           Log.info("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenshotPNG(driver);
         }
 

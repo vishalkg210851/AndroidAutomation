@@ -7,7 +7,7 @@ import com.google.gson.JsonParser;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileBy;
 import org.Interface.Dependencies;
-import org.apache.tools.ant.types.resources.Last;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,6 +21,7 @@ import static io.restassured.RestAssured.given;
 
 public class Helpers implements Dependencies {
     public AppiumDriver driver;
+    Logger log = Logger.getLogger("testinfolog");
     static String URL = "https://layout.airtel.tv/tv/layout/v1/page?op=NON_AIRTEL&os=ANDROID&currSeg=ATVPLUS&cl=unknown&refresh=true&pacp=4001&bn=2148&cp=altbalaji%2Cerosnow%2Cfastfilmz%2Choichoi%2Chooq%2Chotstar%2Chungama%2Cmwtv%2Cndtv%2Czee5&dt=STICK&recInProg=false&rg=true&lg=hi&ut=PO&pncp=&appId=XTREME";
     Boolean ReachedEnd = false;
     String temp = "";
@@ -44,7 +45,7 @@ public class Helpers implements Dependencies {
         String title;
         try {
             title = Helpers.getPagelayout(HomepageID);
-            System.out.println("Last Title:- " + title);
+            log.info("Last Title:- " + title);
 
             while (flag) {
                 try {
@@ -52,7 +53,7 @@ public class Helpers implements Dependencies {
                     WebDriverWait wait = new WebDriverWait(driver, 30);
                     wait.until(ExpectedConditions.visibilityOf(LastTitle));
                     String str = LastTitle.getText().trim();
-                    System.out.println("Current Title DLogs" + str);
+                    log.info("Current Title DLogs" + str);
                     if (!str.contentEquals(title)) {
                         test(DOWN_key);
                         System.out.println("Down key pressed");
@@ -65,7 +66,7 @@ public class Helpers implements Dependencies {
                 }
             }
         } catch (Exception e) {
-            System.out.println(e);
+            log.info(e);
         }
     }
 
@@ -84,13 +85,13 @@ public class Helpers implements Dependencies {
     private void swipecards(List<WebElement> args, WebElement arg) throws InterruptedException {
         String name;
         int list_size=args.size();
-        System.out.println("size of list is:-" +list_size);
+       log.info("size of list is:-" +list_size);
         for(int j=0;j<=list_size;j++) {
             test(Right_Key);
             Thread.sleep(2000);
         }
         name = arg.getText();
-        System.out.println("name1 is =" + name);
+       log.info("name1 is =" + name);
         if (name.equals(temp)){
             ReachedEnd = true;
             test(Right_Key);
@@ -112,7 +113,7 @@ public class Helpers implements Dependencies {
             WebElement Movie_Title = driver.findElementByXPath("//android.widget.TextView[@index='0']");
             if (Movie_Title.isDisplayed()) {
                 Movie_Title.getText();
-                System.out.println("Displayed Movie Title:-" + Movie_Title);
+                log.info("Displayed Movie Title:-" + Movie_Title);
             }
             Thread.sleep(5000);
             test(Back);
@@ -176,7 +177,7 @@ public class Helpers implements Dependencies {
             WebElement element = driver.findElement(MobileBy.AndroidUIAutomator(                                                                                                                                                                                                                                                                                               				"new UiScrollable(new UiSelector().className(\"android.widget.LinearLayout\"))." +
                                         "setAsHorizontalList().scrollIntoView("
                 				+ "new UiSelector().descriptionContains(\"Continue Watching\"))"));
-            System.out.println(element.getAttribute("id"));
+            log.info(element.getAttribute("id"));
     }
 
 }

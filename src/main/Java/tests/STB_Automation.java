@@ -1,15 +1,14 @@
 package tests;
 import org.Interface.Dependencies;
+import org.apache.log4j.Logger;
 import org.pages.HomePage;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
 
 
 public class STB_Automation extends Base_Class {
-    private Logger log = LoggerFactory.getLogger(this.getClass());
+    Logger log = Logger.getLogger("testinfolog");
     HomePage homePage;
 
     @Test(priority = 1, description = "Testing HomePage")
